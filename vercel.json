@@ -1,12 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "./app",
-      "dest": "/",
-      "use": "@vercel/static-build",
-      "config": {}
-    }
-  ],
-  "buildCommand": "next build"
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
