@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": ".",
+      "src": "./app",
       "use": "@vercel/static-build",
       "config": {}
     }
   ],
-  "buildCommand": "next build"
+  "build": "build"
 }
