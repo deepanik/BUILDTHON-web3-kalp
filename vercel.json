@@ -3,6 +3,7 @@
   "builds": [
     {
       "src": "./app",
+      "dest": "/",
       "use": "@vercel/static-build",
       "config": {}
     }
